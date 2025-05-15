@@ -1,0 +1,744 @@
+
+* {
+    
+    margin: 0px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing:border-box
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+section {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 16px;
+    
+}
+
+    nav{
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        background-color: white;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        padding: 8px 26px;
+        
+        .logo{
+            letter-spacing: 4px;
+            a{ float: left;
+                width: auto;
+                border: none;
+                display: block;
+                padding: 8px 16px;
+                color: black;
+            }
+            a:hover {
+                background-color: #ccc;
+            }
+        }
+        .navv {  
+            float: right;
+            padding-right: 50px;
+            a{  
+                padding: 8px;
+                float: left;
+                width: auto;
+                border: none;
+                display: block;
+                letter-spacing: 4px;
+                color: black;
+            }
+            a:hover{
+                background-color: #ccc;
+            }
+        }
+        
+    }
+    
+    header {
+        img{
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+        }
+        .logo1{
+            
+            h1{ text-align: center;
+                align-items: center;
+                color: #fff;
+                font-size: 36px;
+            span { font-family: "Segoe UI", Arial, sans-serif;
+                color: black;
+                font-size: larger;
+                padding: 5px;
+                b { color: white;
+                    font-size: medium;
+                    padding: 8px 16px;
+                    background-color: black;
+                    
+                    font-weight: bolder;
+                }
+            }
+            }
+        }
+    }
+    
+    section { 
+        .project {
+            
+            h3{
+                font-family: "Segoe UI", Arial, sans-serif;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                font-weight: 400;
+                margin: 10px 0;
+                font-size: 24px;
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                unicode-bidi: isolate;
+                border-bottom: 1px solid #f1f1f1
+                
+            }
+        }
+        
+    
+        .projekti { position: relative;
+            .summer {
+                padding: 8px 16px;
+                margin-left: 16px;
+                margin-top: 8px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: black;
+                color: white;
+            }
+        }
+    
+    
+        .projekti { position: relative;
+            .brick {
+                padding: 8px 16px;
+                margin-left: 16px;
+                margin-top: 8px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: black;
+                color: white;
+            }
+        }
+    
+    
+        .projekti { position: relative;
+            .renovated {
+                padding: 8px 16px;
+                margin-left: 16px;
+                margin-top: 8px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: black;
+                color: white;
+            }
+        }
+    
+        .projekti { position: relative;
+            .barn {
+                padding: 8px 16px;
+                margin-left: 16px;
+                margin-top: 8px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: black;
+                color: white;
+            }
+        }
+        
+    }
+    
+    section {
+        .about {
+            h3{
+                font-family: "Segoe UI", Arial, sans-serif;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                font-weight: 400;
+                margin: 10px 0;
+                font-size: 24px;
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                unicode-bidi: isolate;
+                border-bottom: 1px solid #f1f1f1
+                
+            }
+            p {
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                unicode-bidi: isolate;
+            }
+        }
+        .cards {
+            display: grid;
+            grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+            filter: grayscale(75%);
+            
+    
+            .card { padding: 0 10px;
+                img {
+                    width: 100%;
+                }
+                h3{
+                    font-size: 24px;
+                }
+                p>button{
+                    width: 80%;
+                    border: none;
+                    display: block;
+                    padding: 8px 16px;
+                    margin-top:15px ;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+    }
+    .opacity {
+        opacity: 0.60;
+        padding-top: 10px;
+        padding-bottom: 13px;
+    }
+    
+    section {
+        .kontakti{ width: 100%;
+            h3{ 
+                font-family: "Segoe UI", Arial, sans-serif;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                font-weight: 400;
+                margin: 10px 0;
+                font-size: 24px;
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                unicode-bidi: isolate;
+                border-bottom: 1px solid #f1f1f1
+            }
+            form{ width: 100%;
+                display: block;
+                input{ width: 100%;
+                    display: block;
+                    padding: 8px;
+                    margin: 15px;
+                    border: 1px solid #ccc;
+                }
+                button{
+                    background-color: black;
+                    color: white;
+                    padding: 15px;
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                    margin-left: 16px;
+                    cursor: pointer;
+                    border: none;
+                }
+                button:hover {
+                    background-color: gray;
+                    color: black;
+                }  
+            }
+        }
+    }
+    button:hover {
+        background-color: gray;
+    }
+    
+    footer{
+        width: 100%;
+        
+        background-color: black;
+        p{
+            color: white;
+            text-align: center;
+            padding: 30px
+        }
+    }
+
+/* 0-575px Mobile */
+@media screen and (max-width:575px) {
+    
+nav { position: fixed;
+    .navv {
+        flex-direction: column;
+        height: auto;
+        display: none;
+
+    }
+    /* input[type="checkbox"]:checked + .navv {
+        display: block
+        
+    }
+    input[type="checkbox"]::before {
+content: "⚙️";
+font-size: 28px;
+    }
+    input {
+        position: absolute;
+        right: 54px;
+        
+    }
+} */
+}
+
+
+header {
+    .logo1 {
+        display: none;
+    }
+}
+
+section {
+    .project { padding: 8px 16px;
+        h3 {
+            text-align: center;
+        }
+    }
+
+    .projekt { padding: 8px 16px;
+        display: grid;
+        
+
+        .projekti{ 
+            margin-bottom: 16px;
+            .brick , .renovated , .barn , .summer{
+                margin-left: 0px;
+                margin-top: 0px;
+                padding-left: 10px;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
+section {
+    .about { padding: 8px 16px;
+        h3{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+
+    .cards{ width: 100%;
+        display: grid;
+        grid-template:repeat(1, 1fr) / repeat(1, 1fr);
+        gap: 20px;
+
+        .card {
+            h3 , p {
+                text-align: center;
+            }
+            p>button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+section {
+    .kontakti {
+        width: 90%;
+        form {
+            button {
+                width: 100%;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Tablet  */
+@media screen and (min-width:576px) {
+    nav {
+        .navv{
+            padding: 0px;
+        }
+    }
+    section {
+        width: 90%;
+
+        .project {
+            h3{
+                text-align: center;
+            }
+        }
+
+        .projekt { width: 100%;
+            display: grid;
+            grid-template: repeat(4, 1fr) / repeat(2, 1fr); 
+            gap: 20px;
+        }
+        .projekti { 
+                .brick , .renovated , .barn , .summer{
+                    margin-left: 0px;
+                    margin-top: 0px;
+                    
+                }
+            img {
+                width: 100%;
+            }
+        }
+
+        .about {
+            h3{
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+        }
+        .cards {
+            display: grid;
+            grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+            gap: 15px;
+            .card {
+                p>button {
+                width: 100%;
+                }
+            }
+        }
+        
+    }
+    
+}
+
+
+
+/* Desktop */
+
+@media screen and (min-width:1200px) {
+    
+    nav{
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        background-color: white;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        padding: 8px 26px;
+        
+        .logo{
+            letter-spacing: 4px;
+            a{ float: left;
+                width: auto;
+                border: none;
+                display: block;
+                padding: 8px 16px;
+                color: black;
+            }
+            a:hover {
+                background-color: #ccc;
+            }
+        }
+        .navv {  
+            float: right;
+            padding-right: 50px;
+            a{  
+                padding: 8px;
+                float: left;
+                width: auto;
+                border: none;
+                display: block;
+                letter-spacing: 4px;
+                color: black;
+            }
+            a:hover{
+                background-color: #ccc;
+            }
+        }
+        
+    }
+    
+    header {  max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 8px 16px;
+        img{
+            width: 100%;
+            
+            
+        }
+        .logo1{
+            
+            h1{ text-align: center;
+                align-items: center;
+                color: #fff;
+                font-size: 36px;
+            span { font-family: "Segoe UI", Arial, sans-serif;
+                color: black;
+                font-size: larger;
+                padding: 5px;
+                b { color: white;
+                    font-size: medium;
+                    padding: 8px 16px;
+                    background-color: black;
+                    
+                    font-weight: bolder;
+                }
+            }
+            }
+        }
+    }
+    
+    section { 
+        .project {
+            
+            h3{
+                font-family: "Segoe UI", Arial, sans-serif;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                font-weight: 400;
+                margin: 10px 0;
+                font-size: 24px;
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                unicode-bidi: isolate;
+                border-bottom: 1px solid #f1f1f1
+                
+            }
+        }
+        .projekt {
+            display: grid;
+            grid-template: repeat(2, 1fr) / repeat(4, 1fr); 
+            }
+        .projekti {
+            padding: 8px 16px;
+            img {
+                width: 100%;
+            }
+        }
+    
+        .projekti { position: relative;
+            .summer {
+                padding: 8px 16px;
+                margin-left: 16px;
+                margin-top: 8px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: black;
+                color: white;
+            }
+        }
+    
+    
+        .projekti { position: relative;
+            .brick {
+                padding: 8px 16px;
+                margin-left: 16px;
+                margin-top: 8px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: black;
+                color: white;
+            }
+        }
+    
+    
+        .projekti { position: relative;
+            .renovated {
+                padding: 8px 16px;
+                margin-left: 16px;
+                margin-top: 8px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: black;
+                color: white;
+            }
+        }
+    
+        .projekti { position: relative;
+            .barn {
+                padding: 8px 16px;
+                margin-left: 16px;
+                margin-top: 8px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: black;
+                color: white;
+            }
+        }
+        
+    }
+    
+    section {
+        .about {
+            h3{
+                font-family: "Segoe UI", Arial, sans-serif;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                font-weight: 400;
+                margin: 10px 0;
+                font-size: 24px;
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                unicode-bidi: isolate;
+                border-bottom: 1px solid #f1f1f1
+                
+            }
+            p {
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                unicode-bidi: isolate;
+            }
+        }
+        .cards {
+            display: grid;
+            grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+            filter: grayscale(75%);
+            
+    
+            .card { padding: 0 10px;
+                img {
+                    width: 100%;
+                }
+                h3{
+                    font-size: 24px;
+                }
+                p>button{
+                    width: 80%;
+                    border: none;
+                    display: block;
+                    padding: 8px 16px;
+                    margin-top:15px ;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+    }
+    .opacity {
+        opacity: 0.60;
+        padding-top: 10px;
+        padding-bottom: 13px;
+    }
+    
+    section {
+        .kontakti{ width: 100%;
+            h3{ 
+                font-family: "Segoe UI", Arial, sans-serif;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                font-weight: 400;
+                margin: 10px 0;
+                font-size: 24px;
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                unicode-bidi: isolate;
+                border-bottom: 1px solid #f1f1f1
+            }
+            form{ width: 100%;
+                display: block;
+                input{ width: 100%;
+                    display: block;
+                    padding: 8px;
+                    margin: 15px;
+                    border: 1px solid #ccc;
+                }
+                button{
+                    background-color: black;
+                    color: white;
+                    padding: 15px;
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                    margin-left: 16px;
+                    cursor: pointer;
+                    border: none;
+                }
+                button:hover {
+                    background-color: gray;
+                    color: black;
+                }  
+            }
+        }
+    }
+    button:hover {
+        background-color: gray;
+    }
+    
+    footer{
+        width: 100%;
+        
+        background-color: black;
+        p{
+            color: white;
+            text-align: center;
+            padding: 30px
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
